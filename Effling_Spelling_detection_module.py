@@ -10,24 +10,11 @@ app = Flask(__name__)
 
 
 EN_WORDS = [
-    "a","an","and","away","big","blue","can","come","down","find","for","fun","get","go","had","has",
-    "have","he","help","here","i","in","is","it","jump","little","look","make","me","my","not","now",
-    "on","one","play","red","run","said","see","she","the","they","this","three","to","two","up",
-    "want","we","where","yellow","you","ball","bed","book","boy","bread","bring","but","cake","car",
-    "cat","chair","child","chicken","clock","cup","day","door","dress","egg","eat","eye","family",
-    "farm","fast","father","feet","fish","five","floor","flower","food","foot","friend","frog",
-    "garden","girl","give","glass","grass","ground","hand","happy","house","hurt","king","kite","leg",
-    "letter","lion","love","milk","man","mouse","monkey","mother","name","night","nose","orange","open",
-    "paper","people","picture","puppy","rain","read","ride","ring","road","school","sheep","short",
-    "sing","sit","sleep","small","snow","socks","song","spoon","star","stick","stone","stop","street",
-    "sun","table","tail","teacher","ten","that","there","think","thumb","time","together","tree","walk",
-    "water","wheel","white","window","wise","work","world","write","zoo","apple","dog","phone","elephant",
-    "beautiful","tiger","friendship"
+    "a","an","and","away","big","blue","can","come","down","find","for","fun","get","go","had","has","have","he","help","here","i","in","is","it","jump","little","look","make","me","my","not","now","on","one","play","red","run","said","see","she","the","they","this","three","to","two","up","want","we","where","yellow","you","all","am","are","at","be","by","do","does","done","from","if","into","its","let","may","more","much","no","of","off","or","out","put","so","some","then","there","these","those","time","toy","use","very","was","what","when","who","why","yes","yet","your","after","again","around","ask","away","back","because","before","best","both","buy","call","came","change","close","cut","draw","every","fast","find","fly","give","goes","good","had","hear","keep","kind","know","like","live","long","look","make","man","men","most","must","name","near","never","new","old","once","only","open","own","play","put","read","ride","run","said","see","show","sing","sit","sleep","small","stand","stop","take","tell","think","try","under","walk","want","watch","well","will","work","write","yourself","his","her","hers","him","their","theirs","ours","myself","yourself","ourselves","themselves","this","that","these","those","itself","each","every","any","some","few","many","lot","number","first","second","third","next","last","other","right","left","up","down","here","there","over","under","again","soon","later","now","then","always","never","sometimes","often","today","tomorrow","yesterday","day","night","morning","evening","time","school","home","family","friend","teacher","student","bag","book","pen","pencil","eraser","sharpener","desk","bench","board","class","learn","read",
 ]
 
 HI_WORDS = [
-    "सेब", "बिल्ली", "कुत्ता", "घर", "माता", "पिता", "खेल", "किताब", "स्कूल", "फूल",
-    "गाय", "सूरज", "चाँद", "नदी", "आनंद", "खुश", "बच्चा", "मित्र", "दोस्त", "सफर"
+    "सेब","बिल्ली","कुत्ता","घर","माता","पिता","खेल","किताब","स्कूल","फूल","गाय","सूरज","चाँद","नदी","आनंद","खुश","बच्चा","मित्र","दोस्त","सफर","पेड़","पत्ता","पानी","धरती","आसमान","पक्षी","फल","सब्जी","बाजार","शहर","गांव","सड़क","रेल","बस","गाड़ी","खिलौना","मैदान","कहानी","खेलना","पढ़ना","लिखना","सुनना","बोलना","मदद","साझा","मुस्कान","अच्छा","साफ","सुंदर","ईमानदार","दयालु","सच्चा","सूरजमुखी","बारिश","ठंड","गर्मी","वसंत","पतझड़","आशा","विश्व","काम","समय","दोस्ताना","विद्यालय","शिक्षक","विद्यार्थी","पेंसिल","कलम","रबर","किताब","बैग","डेस्क","बेंच","ब्लैकबोर्ड","चॉक","संख्या","रंग","आकार","जानवर","पंछी","फल","सब्ज़ी","शहर","गांव","नदी","बगीचा","पार्क","कुत्ता","बिल्ली","शेर","हाथी","बंदर","सिंह","मोर","तोता","खरगोश","खाना","दूध","पानी","दोस्ती","परिवार","भाई","बहन","खुशी","आनंद","सपना","सुबह","शाम","दिन","रात","आज","कल","कलमदान","कक्षा","कापी","खिड़की","दरवाज़ा","कमरा","घड़ी","समझ","सीखना","सुनना","पढ़ाई","खेलकूद","सफाई","स्वास्थ्य","प्रकृति","जीवन","प्रेम","ईश्वर","सत्य","धैर्य","सम्मान","ईमान","भोजन","फल","दूध","पानी","वातावरण","पशु","पक्षी","मनुष्य","मित्रता","संगीत","चित्र","नृत्य","गीत","कविता",
 ]
 
 VOCAB: Dict[str, Dict] = {}
